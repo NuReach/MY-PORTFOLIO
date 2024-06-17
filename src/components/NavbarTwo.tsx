@@ -5,7 +5,7 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 import { Menu } from 'lucide-react'
 import { motion, useMotionValueEvent, useScroll } from 'framer-motion'
 
-export default function Navbar() {
+export default function NavbarTwo() {
   const { scrollY } = useScroll();
   const [ show , setShow ] = useState(false);
   useMotionValueEvent(scrollY, "change", (latest) => {
@@ -16,13 +16,13 @@ export default function Navbar() {
     }
   })
   return (
-    <div className='flex justify-between p-3 w-full '>
+    <div className='flex justify-between p-3 w-full h-16 '>
         <div className=''>
-            <Link href={'/'} className='text-lg font-extrabold fixed top-6 text-gray-630 text-black '>
+            <Link href={'/'} className='text-lg font-extrabold fixed top-6 text-gray-630 text-white '>
               @NNUREACH HONG@
             </Link>
         </div>
-        <div className='hidden md:flex gap-6 text-lg font-bold mt-3 text-black'>
+        <div className='hidden md:flex gap-6 text-lg font-bold mt-3 text-white'>
             <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100 ' href={`/`}>Home</Link>
             <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/project`}>Project</Link>
             <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/about`}>About</Link>

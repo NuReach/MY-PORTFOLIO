@@ -1,10 +1,13 @@
 import Navbar from '@/components/Navbar'
+import NavbarTwo from '@/components/NavbarTwo'
 import React from 'react'
 
 export default function Page() {
   return (
     <div>
-      <Navbar />
+      <div>
+        <NavbarTwo   />
+      </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio obcaecati vel quae! Adipisci, deserunt incidunt aspernatur accusantium esse, molestiae veniam eum provident velit est dolorem repellendus voluptate, nam facilis dolor?
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae tempora pariatur aspernatur adipisci numquam, ipsam magni. Accusamus sit rem qui maiores aliquam libero suscipit? Aperiam dolorem quasi atque exercitationem consequuntur.

@@ -17,10 +17,10 @@ export default function Home() {
         alt="My background image"
         width={1280} 
         height={720} 
-        className=" w-full object-cover h-[600px] -mt-36  sm:h-[1030px] sm:-mt-72 brightness-75 "
+        className=" w-full object-cover h-[600px] -mt-36  sm:h-[1030px] sm:-mt-72 brightness-95 "
       />
       <div>
-          <div className="absolute z-50 top-[403px] left-[3px] sm:top-[603px] sm:left-[303px] lg:left-[603px] xl:left-[803px]  text-black text-lg sm:text-3xl p-3 md:w-80 text-center font-extrabold">
+          <div className="absolute text-white z-50 top-[401px] left-[1px] sm:top-[501px] sm:left-[303px] lg:left-[603px] xl:left-[803px] text-2xl sm:text-5xl p-3 md:w-96 text-center font-extrabold">
             {
               textArr.map((item,i)=>(
                 <motion.span
@@ -32,7 +32,7 @@ export default function Home() {
               ))
             }
           </div>
-          <div className="absolute z-50 top-[400px] left-[0px] sm:top-[600px] sm:left-[300px] lg:left-[600px] xl:left-[800px] text-lg sm:text-3xl p-3 md:w-80 text-center font-bold">
+          <div className="absolute text-black z-50 top-[400px] left-[0px] sm:top-[500px] sm:left-[300px] lg:left-[600px] xl:left-[800px] text-2xl sm:text-5xl p-3 md:w-96 text-center font-extrabold">
             {
               textArr.map((item,i)=>(
                 <motion.span
