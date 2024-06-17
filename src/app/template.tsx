@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variant } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { LayoutRouterContext } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import { useContext, useRef } from "react";
@@ -28,12 +28,12 @@ export default function Template({children}: {children: React.ReactNode}){
             <AnimatePresence mode={'wait'} initial={false}>
                 <motion.div 
                     key={pathname}
-                    initial={{opacity: 0}}
+                    initial={{opacity: 0 }}
                     animate={{opacity: 1}}
-                    exit={{opacity: 0}}
-                    transition={{duration: 0.8, ease: [0.27,0.94,0.48,1.0]}}
+                    exit={{opacity:0}}
+                    transition={{duration: 1, ease: [0.27,0.94,0.48,1.0]}}
                 >
-                    <FrozenRouter>{children}</FrozenRouter>
+                    {children}
                 </motion.div>    
             </AnimatePresence> 
         </>
