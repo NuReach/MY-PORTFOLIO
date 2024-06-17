@@ -18,12 +18,12 @@ export default function Navbar() {
   return (
     <div className='flex justify-between p-3 w-full '>
         <div>
-            <Link href={'/'} className='text-xs font-bold fixed top-6 text-gray-630'>
+            <Link href={'/'} className='text-lg font-bold fixed top-6 text-gray-630 animate-bounce text-white '>
               @NNUREACH HONG@
             </Link>
         </div>
         <div className='hidden md:flex gap-6 text-sm font-bold mt-3'>
-            <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/`}>Home</Link>
+            <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100 ' href={`/`}>Home</Link>
             <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/project`}>Project</Link>
             <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/about`}>About</Link>
             <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/contact`}>Contact</Link>
