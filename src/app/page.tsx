@@ -13,7 +13,7 @@ export default function Home() {
         alt="My background image"
         width={1280} 
         height={720} 
-        className=" w-full object-cover h-[600px] -mt-36  sm:h-[1030px] sm:-mt-72  "
+        className=" w-full object-cover h-[600px] -mt-36  sm:h-[1030px] sm:-mt-72 brightness-50 "
       />
     </div>
     <div>

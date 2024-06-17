@@ -9,9 +9,9 @@ export default function Navbar() {
         </div>
         <div className='flex gap-3'>
             <Link href={`/`}>Home</Link>
-            <Link href={`/`}>Project</Link>
-            <Link href={`/`}>About</Link>
-            <Link href={`/`}>Contact</Link>
+            <Link href={`/project`}>Project</Link>
+            <Link href={`/about`}>About</Link>
+            <Link href={`/contact`}>Contact</Link>
         </div>
     </div>
   )
