@@ -1,5 +1,7 @@
-import Navbar from '@/components/Navbar'
+'use client';
+import { BentoGridDemo } from '@/components/BentoGridDemo'
 import NavbarTwo from '@/components/NavbarTwo'
+import { motion } from 'framer-motion'
 import React from 'react'
 
 export default function Page() {
@@ -8,11 +10,16 @@ export default function Page() {
       <div>
         <NavbarTwo   />
       </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio obcaecati vel quae! Adipisci, deserunt incidunt aspernatur accusantium esse, molestiae veniam eum provident velit est dolorem repellendus voluptate, nam facilis dolor?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae tempora pariatur aspernatur adipisci numquam, ipsam magni. Accusamus sit rem qui maiores aliquam libero suscipit? Aperiam dolorem quasi atque exercitationem consequuntur.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, quia provident iure impedit aliquam ducimus dicta eos accusantium cum voluptatem veritatis! Natus dicta veniam unde incidunt iure impedit repellendus consequatur!
-      </p>
+      <motion.div
+         initial ={{y:-100}}
+         animate = {{y:0}}
+         transition={{duration: 1,type:"spring",damping:6}}
+      className='w-full items-center justify-center flex mt-6'>
+        <p className='font-bold text-3xl'>Projects</p>
+      </motion.div>
+      <div>
+        <BentoGridDemo />
+      </div>
     </div>
   )
 }
