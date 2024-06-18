@@ -96,7 +96,7 @@ export default function Home() {
         <div className="text-black">
           <div className="w-full columns-3 sm:columns-4 lg:columns-5  p-3">
             <img src="https://api.iconify.design/devicon:html5.svg"className="w-full p-3" alt="" />
-            <img src="https://api.iconify.design/logos:css-3.svg"className="w-full p-3" alt="" />
+            <img src="https://api.iconify.design/vscode-icons:file-type-mongo.svg"className="w-full p-3" alt="" />
             <img src="https://api.iconify.design/devicon:javascript.svg"className="w-full p-3" alt="" />
             <img src="https://api.iconify.design/skill-icons:tailwindcss-light.svg"className="w-full p-3" alt="" />
             <img src="https://api.iconify.design/devicon:java-wordmark.svg"className="w-full p-3" alt="" />
@@ -107,6 +107,9 @@ export default function Home() {
             <img src="https://api.iconify.design/vscode-icons:file-type-node.svg"className="w-full p-3" alt="" />
             <img src="https://api.iconify.design/skill-icons:nextjs-light.svg"className="w-full p-3" alt="" />
             <img src="https://api.iconify.design/skill-icons:nestjs-light.svg"className="w-full p-3" alt="" />
+            <img src="https://api.iconify.design/logos:mysql.svg"className="w-full p-3" alt="" />
+            <img src="https://api.iconify.design/logos:react-query-icon.svg"className="w-full p-3" alt="" />
+            <img src="https://api.iconify.design/logos:react.svg"className="w-full p-3" alt="" />
           </div>
         </div>
       </ContainerScroll>
