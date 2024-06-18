@@ -36,7 +36,7 @@ export const ContainerScroll = ({
 
   return (
     <div
-      className="h-[60rem] md:h-[80rem] flex items-center justify-center relative p-2 "
+      className="h-[30rem] md:h-[50rem] flex items-center justify-center relative p-2 "
       ref={containerRef}
     >
       <div
@@ -45,7 +45,7 @@ export const ContainerScroll = ({
           perspective: "1000px",
         }}
       >
-        <Header translate={translate} titleComponent={titleComponent} />
+        {/* <Header translate={translate} titleComponent={titleComponent} /> */}
         <Card rotate={rotate} translate={translate} scale={scale}>
           {children}
         </Card>
