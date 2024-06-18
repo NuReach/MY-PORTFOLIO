@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <div className='flex justify-between p-3 w-full '>
         <div className=''>
-            <Link href={'/'} className='text-sm font-extrabold fixed top-6 text-gray-630 text-black '>
+            <Link href={'/'} className='text-sm font-extrabold  text-gray-630 text-black '>
               @NNUREACH HONG@
             </Link>
         </div>
