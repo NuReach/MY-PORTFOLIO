@@ -7,27 +7,27 @@ import { motion, useMotionValueEvent, useScroll } from 'framer-motion'
 
 export default function Navbar() {
   const { scrollY } = useScroll();
-  const [ show , setShow ] = useState(false);
-  useMotionValueEvent(scrollY, "change", (latest) => {
-    if (latest>47) {
-      setShow(true)
-    }else{
-      setShow(false)
-    }
-  })
+  const [ show , setShow ] = useState(true);
+  // useMotionValueEvent(scrollY, "change", (latest) => {
+  //   if (latest>47) {
+  //     setShow(true)
+  //   }else{
+  //     setShow(false)
+  //   }
+  // })
   return (
     <div className='flex justify-between p-3 w-full '>
         <div className=''>
-            <Link href={'/'} className='text-lg font-extrabold fixed top-6 text-gray-630 text-black '>
+            <Link href={'/'} className='text-sm font-extrabold fixed top-6 text-gray-630 text-black '>
               @NNUREACH HONG@
             </Link>
         </div>
-        <div className='hidden md:flex gap-6 text-lg font-bold mt-3 text-black'>
-            <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100 ' href={`/`}>Home</Link>
-            <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/project`}>Project</Link>
-            <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/about`}>About</Link>
-            <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/contact`}>Contact</Link>
-        </div>
+          {/* <div className='hidden md:flex gap-6 text-lg font-bold mt-3 text-black'>
+              <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100 ' href={`/`}>Home</Link>
+              <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/project`}>Project</Link>
+              <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/about`}>About</Link>
+              <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/contact`}>Contact</Link>
+          </div> */}
         {
           show &&
           <div className='hidden md:block md:fixed top-3 right-3'>
