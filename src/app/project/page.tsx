@@ -15,7 +15,7 @@ export default function Page() {
          animate = {{y:0}}
          transition={{duration: 1,type:"spring",damping:6}}
       className='w-full items-center justify-center flex mt-6'>
-        <p className='font-bold text-3xl'>Projects</p>
+        <h1 className='font-bold text-3xl'>Projects</h1>
       </motion.div>
       <div>
         <BentoGridDemo />
