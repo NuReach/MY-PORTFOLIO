@@ -48,8 +48,12 @@ export default function About() {
           <div className='flex flex-col gap-6 mt-9 '>
             <p>  "I am a skilled web and mobile developer with a passion for crafting efficient, user-friendly applications. With expertise in both front-end and back-end technologies, I specialize in creating seamless digital experiences that enhance user engagement and satisfaction."
             </p>
-            <Button className='bg-orange-400 font-extrabold'>Contact <Mail className='ml-3 font-bold' /> </Button>
-            <Button className='bg-orange-400 font-extrabold'>Download Cv <Download className='ml-3 font-bold' /> </Button>
+            <a className='w-full' href="mailto:nureach46@gmail.com">
+              <Button  className='bg-orange-400 font-extrabold w-full'>Contact <Mail className='ml-3 font-bold' /> </Button>
+            </a>
+            <a className='w-full' href="/cv.pdf" download={true}>
+            <Button className='bg-orange-400 font-extrabold w-full'>Download Cv <Download className='ml-3 font-bold' /> </Button>  
+            </a>
           </div>
         </motion.div>
         <motion.div
