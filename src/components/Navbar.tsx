@@ -22,12 +22,6 @@ export default function Navbar() {
               @NNUREACH HONG@
             </Link>
         </div>
-          {/* <div className='hidden md:flex gap-6 text-lg font-bold mt-3 text-black'>
-              <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100 ' href={`/`}>Home</Link>
-              <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/project`}>Project</Link>
-              <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/about`}>About</Link>
-              <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/contact`}>Contact</Link>
-          </div> */}
         {
           show &&
           <div className='hidden md:block md:fixed top-3 right-3'>
@@ -64,14 +58,6 @@ export default function Navbar() {
                       transition={{duration: 1.6, ease: [0.27,0.94,0.48,1.0]}}
                     >
                        <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/about`}>About</Link>
-                    </motion.div>
-                    <motion.div 
-                      initial={{x: 100 }}
-                      animate={{x: 0}}
-                      exit={{opacity:0}}
-                      transition={{duration: 1.9, ease: [0.27,0.94,0.48,1.0]}}
-                    >
-                       <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/contact`}>Contact</Link>
                     </motion.div>  
                   </SheetDescription>
                   <SheetTitle className='text-xs mt-16 border-b p-6'>FIND ME!!</SheetTitle> 
@@ -133,14 +119,6 @@ export default function Navbar() {
                     >
                        <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/about`}>About</Link>
                     </motion.div>
-                    <motion.div 
-                      initial={{x: 100 }}
-                      animate={{x: 0}}
-                      exit={{opacity:0}}
-                      transition={{duration: 1.9, ease: [0.27,0.94,0.48,1.0]}}
-                    >
-                       <Link className='hover:border-b-2 hover:transition-opacity hover:delay-100' href={`/contact`}>Contact</Link>
-                    </motion.div>  
                   </SheetDescription>
                   <SheetTitle className='text-xs mt-16 border-b p-6'>FIND ME!!</SheetTitle> 
                   <SheetTitle className='text-xs mt-16 border-b py-6 flex gap-3 flex-wrap'>

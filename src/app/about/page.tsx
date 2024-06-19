@@ -1,5 +1,5 @@
 'use client';
-import NavbarTwo from '@/components/NavbarTwo'
+import Navbar from '@/components/Navbar';
 import { Button } from '@/components/ui/button'
 import { easeInOut, motion } from 'framer-motion';
 import { Download, Mail } from 'lucide-react'
@@ -9,7 +9,7 @@ import React from 'react'
 export default function About() {
   return (
     <div>
-      <NavbarTwo />
+      <Navbar />
       <motion.div
          initial ={{y:-100}}
          animate = {{y:0}}

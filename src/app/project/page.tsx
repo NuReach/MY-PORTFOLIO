@@ -1,6 +1,6 @@
 'use client';
 import { BentoGridDemo } from '@/components/BentoGridDemo'
-import NavbarTwo from '@/components/NavbarTwo'
+import Navbar from '@/components/Navbar';
 import { motion } from 'framer-motion'
 import React from 'react'
 
@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div>
       <div>
-        <NavbarTwo   />
+        <Navbar   />
       </div>
       <motion.div
          initial ={{y:-100}}
