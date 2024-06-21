@@ -66,19 +66,16 @@ export default function About() {
             <p className='font-bold'>Nnureach Hong</p>
           </div>
           <div className='flex flex-wrap gap-6'>
-              <Link href={'/'}>
+              <Link href={'https://www.facebook.com/profile.php?id=100009653767074'}>
                 <img src="https://api.iconify.design/logos:facebook.svg" alt=""  className='w-9 cursor-pointer'/>
               </Link>  
-              <Link href={'/'}>
-                <img src="https://api.iconify.design/skill-icons:instagram.svg" alt="" className='w-9 cursor-pointer'/>
-              </Link>
-              <Link href={'/'}>
+              <Link href={'https://t.me/Nnureach'}>
                 <img src="https://api.iconify.design/logos:telegram.svg" alt="" className='w-9 cursor-pointer'/>
               </Link>
-              <Link href={'/'}>
+              <Link href={'https://github.com/NuReach'}>
                 <img src="https://api.iconify.design/skill-icons:github-dark.svg" alt="" className='w-9 cursor-pointer'/>
               </Link>
-              <Link href={'/'}>
+              <Link href={'https://www.linkedin.com/in/nu-reach-94b564220/'}>
                 <img src="https://api.iconify.design/skill-icons:linkedin.svg" alt="" className='w-9 cursor-pointer'/>
               </Link>
           </div>

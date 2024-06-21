@@ -62,21 +62,17 @@ export default function Navbar() {
                   </SheetDescription>
                   <SheetTitle className='text-xs mt-16 border-b p-6'>FIND ME!!</SheetTitle> 
                   <SheetTitle className='text-xs mt-16 border-b p-6 flex gap-3'>
-                    <Link href={''}>
-                      <img src="https://api.iconify.design/logos:facebook.svg" alt=""  className='w-12 cursor-pointer'/>
+                  <Link href={'https://www.facebook.com/profile.php?id=100009653767074'}>
+                      <img src="https://api.iconify.design/logos:facebook.svg" alt=""  className='w-9 cursor-pointer'/>
                     </Link>  
-                    <Link href={''}>
-                      <img src="https://api.iconify.design/skill-icons:instagram.svg" alt="" className='w-12 cursor-pointer'/>
+                    <Link href={'https://t.me/Nnureach'}>
+                      <img src="https://api.iconify.design/logos:telegram.svg" alt="" className='w-9 cursor-pointer'/>
                     </Link>
-                    <Link href={''}>
-                      <img src="https://api.iconify.design/logos:telegram.svg" alt="" className='w-12 cursor-pointer'/>
+                    <Link href={'https://github.com/NuReach'}>
+                      <img src="https://api.iconify.design/skill-icons:github-dark.svg" alt="" className='w-9 cursor-pointer'/>
                     </Link>
-                    <Link href={''}>
-                      <img src="https://api.iconify.design/skill-icons:github-dark.svg" alt="" className='w-12 cursor-pointer'/>
-                    </Link>
-                      <img src="https://api.iconify.design/simple-icons:fiverr.svg" alt="" className='w-12 cursor-pointer'/>
-                    <Link href={''}>
-                      <img src="https://api.iconify.design/skill-icons:linkedin.svg" alt="" className='w-12 cursor-pointer'/>
+                    <Link href={'https://www.linkedin.com/in/nu-reach-94b564220/'}>
+                      <img src="https://api.iconify.design/skill-icons:linkedin.svg" alt="" className='w-9 cursor-pointer'/>
                     </Link>
                   </SheetTitle>  
                 </SheetHeader>
@@ -122,21 +118,17 @@ export default function Navbar() {
                   </SheetDescription>
                   <SheetTitle className='text-xs mt-16 border-b p-6'>FIND ME!!</SheetTitle> 
                   <SheetTitle className='text-xs mt-16 border-b py-6 flex gap-3 flex-wrap'>
-                    <Link href={''}>
-                      <img src="https://api.iconify.design/logos:facebook.svg" alt=""  className='min-w-6  cursor-pointer'/>
+                    <Link href={'https://www.facebook.com/profile.php?id=100009653767074'}>
+                      <img src="https://api.iconify.design/logos:facebook.svg" alt=""  className='w-9 cursor-pointer'/>
                     </Link>  
-                    <Link href={''}>
-                      <img src="https://api.iconify.design/skill-icons:instagram.svg" alt="" className='min-w-6  cursor-pointer'/>
+                    <Link href={'https://t.me/Nnureach'}>
+                      <img src="https://api.iconify.design/logos:telegram.svg" alt="" className='w-9 cursor-pointer'/>
                     </Link>
-                    <Link href={''}>
-                      <img src="https://api.iconify.design/logos:telegram.svg" alt="" className='min-w-6  cursor-pointer'/>
+                    <Link href={'https://github.com/NuReach'}>
+                      <img src="https://api.iconify.design/skill-icons:github-dark.svg" alt="" className='w-9 cursor-pointer'/>
                     </Link>
-                    <Link href={''}>
-                      <img src="https://api.iconify.design/skill-icons:github-dark.svg" alt="" className='min-w-6  cursor-pointer'/>
-                    </Link>
-                      <img src="https://api.iconify.design/simple-icons:fiverr.svg" alt="" className='min-w-6  cursor-pointer'/>
-                    <Link href={''}>
-                      <img src="https://api.iconify.design/skill-icons:linkedin.svg" alt="" className='min-w-6  cursor-pointer'/>
+                    <Link href={'https://www.linkedin.com/in/nu-reach-94b564220/'}>
+                      <img src="https://api.iconify.design/skill-icons:linkedin.svg" alt="" className='w-9 cursor-pointer'/>
                     </Link>
                   </SheetTitle>  
                 </SheetHeader>
