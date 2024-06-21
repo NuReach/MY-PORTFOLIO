@@ -33,7 +33,9 @@ export default function Template({children}: {children: React.ReactNode}){
                     exit={{opacity:0}}
                     transition={{duration: 1, ease: [0.27,0.94,0.48,1.0]}}
                 >
-                    {children}
+                    <FrozenRouter>
+                        {children}
+                    </FrozenRouter>
                 </motion.div>    
             </AnimatePresence> 
         </>

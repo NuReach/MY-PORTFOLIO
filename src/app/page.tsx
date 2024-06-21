@@ -69,7 +69,7 @@ export default function Home() {
       }}
     >
       <p className="p-3 w-full sm:w-[600px] text-center text-sm sm:text-xl">
-      "I am a skilled web and mobile developer with a passion for crafting efficient, user-friendly applications. With expertise in both front-end and back-end technologies, I specialize in creating seamless digital experiences that enhance user engagement and satisfaction."
+      I am a skilled web and mobile developer with a passion for crafting efficient, user-friendly applications. With expertise in both front-end and back-end technologies, I specialize in creating seamless digital experiences that enhance user engagement and satisfaction.
       </p>
     </motion.div>
     <div className="w-full text-center mt-12 mb-9">

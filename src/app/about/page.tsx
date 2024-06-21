@@ -21,7 +21,7 @@ export default function About() {
       animate = {{y:0}}
       transition={{duration: 1,type:"spring",damping:9}}
       className='w-full mt-3 flex justify-center items-center'>
-        <h1 className='font-bold text-xl'>I'm a creative developer</h1>
+        <h1 className='font-bold text-xl'>I am a creative developer</h1>
       </motion.div>
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-3 mt-9 p-3 md:px-24'>
         <motion.div
@@ -46,12 +46,12 @@ export default function About() {
         className='border p-9 min-h-[450px] overflow-hidden'>
           <p className='text-xl font-bold text-orange-400'>About Me</p>
           <div className='flex flex-col gap-6 mt-9 '>
-            <p>  "I am a skilled web and mobile developer with a passion for crafting efficient, user-friendly applications. With expertise in both front-end and back-end technologies, I specialize in creating seamless digital experiences that enhance user engagement and satisfaction."
+            <p>I am a skilled web and mobile developer with a passion for crafting efficient, user-friendly applications. With expertise in both front-end and back-end technologies, I specialize in creating seamless digital experiences that enhance user engagement and satisfaction.
             </p>
-            <a className='w-full' href="mailto:nureach46@gmail.com">
+            <a className='w-full' href='mailto:nureach46@gmail.com'>
               <Button  className='bg-orange-400 font-extrabold w-full'>Contact <Mail className='ml-3 font-bold' /> </Button>
             </a>
-            <a className='w-full' href="/cv.pdf" download={true}>
+            <a className='w-full' href='/cv.pdf' download={true}>
             <Button className='bg-orange-400 font-extrabold w-full'>Download Cv <Download className='ml-3 font-bold' /> </Button>  
             </a>
           </div>
@@ -66,19 +66,19 @@ export default function About() {
             <p className='font-bold'>Nnureach Hong</p>
           </div>
           <div className='flex flex-wrap gap-6'>
-              <Link href={''}>
+              <Link href={'/'}>
                 <img src="https://api.iconify.design/logos:facebook.svg" alt=""  className='w-9 cursor-pointer'/>
               </Link>  
-              <Link href={''}>
+              <Link href={'/'}>
                 <img src="https://api.iconify.design/skill-icons:instagram.svg" alt="" className='w-9 cursor-pointer'/>
               </Link>
-              <Link href={''}>
+              <Link href={'/'}>
                 <img src="https://api.iconify.design/logos:telegram.svg" alt="" className='w-9 cursor-pointer'/>
               </Link>
-              <Link href={''}>
+              <Link href={'/'}>
                 <img src="https://api.iconify.design/skill-icons:github-dark.svg" alt="" className='w-9 cursor-pointer'/>
               </Link>
-              <Link href={''}>
+              <Link href={'/'}>
                 <img src="https://api.iconify.design/skill-icons:linkedin.svg" alt="" className='w-9 cursor-pointer'/>
               </Link>
           </div>
