@@ -31,7 +31,7 @@ export default function Template({children}: {children: React.ReactNode}){
                     initial={{opacity: 0 }}
                     animate={{opacity: 1}}
                     exit={{opacity:0}}
-                    transition={{duration: 1, ease: [0.27,0.94,0.48,1.0]}}
+                    transition={{duration: 0.6, ease: [0.27,0.94,0.48,1.0]}}
                 >
                     <FrozenRouter>
                         {children}

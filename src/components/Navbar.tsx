@@ -62,7 +62,7 @@ export default function Navbar() {
                   </SheetDescription>
                   <SheetTitle className='text-xs mt-16 border-b p-6'>FIND ME!!</SheetTitle> 
                   <SheetTitle className='text-xs mt-16 border-b p-6 flex gap-3'>
-                  <Link href={'https://www.facebook.com/profile.php?id=100009653767074'}>
+                     <Link href={'https://www.facebook.com/profile.php?id=100009653767074'}>
                       <img src="https://api.iconify.design/logos:facebook.svg" alt=""  className='w-9 cursor-pointer'/>
                     </Link>  
                     <Link href={'https://t.me/Nnureach'}>
